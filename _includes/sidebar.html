@@ -1,0 +1,21 @@
+
+          <div id="sidebar" data-spy="affix" data-offset-top="200">
+              <!--<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>-->
+          <div commented-class="nav-collapse collapse">
+  		  		<ul class="nav nav-pills nav-stacked">
+                {% assign my_collections = site.collections | sort: "weight" %}
+                {% for collection in my_collections %}                    
+                    {% unless collection.label == "posts" %}
+                    <li><a href="#{{ collection.label }}">{{ collection.display_name }}</a></li>      
+                    {% endunless %}
+                {% endfor %}
+                <hr>
+                <li><a href="#a-propos">À propos</a></li>      
+  		  		</ul>
+          </div>
+          </div>
+        

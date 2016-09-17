@@ -1,0 +1,62 @@
+	
+	
+	</div> <!-- container -->
+
+	<div id="push"></div>
+</div> <!--wrap-->
+
+
+
+<div id="footer">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm-4">
+			</div>
+		        
+			<div class="col-sm-8">
+				<section class="content">
+				<h2>Pour me joindre:</h2>
+				<p><img src="{{ "general/mail.png" | prepend: site.imagesurl }}"><a href="mailto:info@lisacharpentier.com">info@lisacharpentier.com</a></p>
+				<p id="social">
+					<a href="http://ca.linkedin.com/pub/lisa-charpentier/22/172/11a"><img src="{{ "general/linkedin.png" | prepend: site.imagesurl }}"></a>
+					<a href="http://www.pinterest.com/charpelisa/"><img src="{{ "general/pinterest.png" | prepend: site.imagesurl }}"></a>
+                    <a href="https://www.facebook.com/lisacharpentierdf/"><img src="{{ "general/facebook.png" | prepend: site.imagesurl }}"></a>
+                    <a href="https://www.instagram.com/charpelisa/"><img src="{{ "general/instagram.png" | prepend: site.imagesurl }}"></a>
+				</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<script>
+	$(function (){
+		/** smooth scrolling */
+		$('#sidebar').localScroll( { hash: true } );
+
+		/** affixed sidebar after scrolling */
+	    /** temp disabled $('#sidebar').affix({
+	    	offset: $('#sidebar').position()
+		}); **/
+
+		/* https://github.com/twitter/bootstrap/issues/6350 */
+		$('[data-clampedwidth]').each(function () {
+		    var elem = $(this);
+		    var parentPanel = elem.data('clampedwidth');
+		    var resizeFn = function () {
+		        var sideBarNavWidth = $(parentPanel).width() - parseInt(elem.css('paddingLeft')) - parseInt(elem.css('paddingRight')) - parseInt(elem.css('marginLeft')) - parseInt(elem.css('marginRight')) -  parseInt(elem.css('borderLeftWidth')) - parseInt(elem.css('borderRightWidth'));
+		        elem.css('width', sideBarNavWidth);
+		    };
+
+		    resizeFn();
+		    $(window).resize(resizeFn);
+		});
+
+	});
+</script>
+
+    
+</body>
+
+</html>

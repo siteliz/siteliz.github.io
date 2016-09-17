@@ -1,0 +1,40 @@
+{% include header.html %}
+
+<div class="row">
+	<div class="col-sm-4">
+		{% include sidebar.html %}
+	</div>
+	<div class="col-sm-8">
+
+        {% assign my_collections = site.collections | sort: "weight" %}
+        {% for collection in my_collections %}                    
+            {% unless collection.label == "posts" %}
+            <section id="{{ collection.label }}">
+                <h2 class="cat-title">{{ collection.label }}</h2>
+                    <div>                
+                
+                  {% assign my_docs = collection.docs | sort: "weight" %}
+                  {% for item in my_docs %}
+                        <a href="{{ item.url }}">
+                        <img src="{{ item.thumb | prepend: site.imagesurl }}">
+                        </a>
+                  {% endfor %}
+                    </div>
+            </section>
+            {% endunless %}
+        {% endfor %}
+        
+        <section id="a-propos">
+ <h2>À propos</h2>
+ <p>Designer industriel et artiste de formation, je suis une fabricante de tous les jours basée à Montréal, Qc. <br>
+J’aime les carrés, les projets conceptuel, le bois et la laine. Je suis une fanatique de quiz et d’éphémérides. Pour m'évader, je cuisine et je jardine. Partout et tout le temps, il y a de la radio dans mes oreilles.</p>
+
+<p>À partir de recyclé et de nouveau, je conçois du tissé, de l'imprimé et du fabriqué, du dur et du mou. </p>
+
+<p>Je suis habile de mes 10 doigts et je cherche des projets. Faites-moi signe.</p>
+</section>
+	</div>
+</div>
+
+
+{% include footer.html %}

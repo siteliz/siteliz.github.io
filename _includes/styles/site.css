@@ -1,0 +1,192 @@
+body {
+  background-color: white;
+  /* font-family: Palatino; */
+  font-size: 16px;
+}
+
+.affix {
+    top: 0px;
+}
+
+
+@media(max-width:767px){
+   .affix {
+     position: static;
+     width: auto;
+     top: 0;
+    }
+}
+
+
+#sidebar {
+  font-family: Helvetica, Arial;
+  padding: 5em;
+  padding-top: 2em;
+  padding-left: 4em;
+  padding-right: 0;
+  margin: 1em;
+}
+
+@media(min-width:767px) {
+  #sidebar {
+    width: 343px;
+  }
+}
+
+#lang {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  padding-right: 1em;
+}
+
+
+#banner {
+  position:relative;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  max-height: 200px;
+  text-align:center;
+  padding-top: 3em;
+}
+
+@media (min-width: 767px) {
+  .cat-title {
+    display:none;
+  }
+}
+
+@media (max-width: 767px) {
+  #banner {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+#banner a {
+  text-decoration: none;
+}
+
+
+#banner h2 {
+  line-height: 0px;
+}
+
+#banner, #banner a {
+  color: white;
+}
+#banner h1 {
+  text-shadow: 1px 1px 10px #7a7a7a;
+}
+#banner h2 {
+  color: white;
+  font-size: 150%;
+}
+
+#sidebar .nav {
+  list-style-type: square;
+}
+#sidebar a {
+  font-size: 100%;
+  color: #aaaaaa;
+}
+
+#sidebar li.active a {
+  background-color: transparent;
+}
+
+#sidebar li.active a:after {
+  content:">";
+  float:right;
+  font-weight: 900;
+}
+
+@media(max-width:767px) {
+  #sidebar li.active a:after {
+    display: none;
+  }
+}
+
+section img {
+  padding-bottom: 3px;
+}
+
+#footer {
+
+}
+
+/* http://twitter.github.io/bootstrap/2.3.2/examples/sticky-footer.html */
+html, body {
+  height: 100%;
+}
+
+section {
+  padding-top: 2em;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -300px; /* Negative indent footer by it's height */
+}
+
+.project-image {
+  padding-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+#push,
+#footer {
+  height: 300px;
+}
+
+#footer {
+  margin-top: 2em;
+  background-color: #333333;
+} 
+
+#footer h3 {
+  font-size: 12pt;
+  padding-bottom: 1em;
+} 
+
+
+#footer, #footer a {
+  color: white;
+}
+
+#footer #social {
+  padding-top: 1em;
+}
+
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  section img {
+    width: 100%;
+    height: auto;
+  }
+
+  #footer img {
+    display:none;
+  }
+
+  #footer #social img {
+    display: inline;
+    width: auto;
+    height: auto;
+  }
+}

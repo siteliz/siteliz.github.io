@@ -1,0 +1,37 @@
+---
+layout: post
+---
+
+{% include header.html %}
+
+<div class="row">
+	<div class="col-sm-4">
+		
+        <div id="sidebar">
+              <!--<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>-->
+          <div commented-class="nav-collapse collapse">
+  		  		<ul class="nav nav-pills nav-stacked">
+                  <li><a href="/">< Retour aux projets</a></li>      
+  		  		</ul>
+          </div>
+        </div>
+	</div>
+	<div class="col-sm-8">
+		<section class="content">
+		
+      <div id="{{ page.id }}">
+      <h2>{{ page.title }}</h2>
+
+
+          <div>
+            {{ content }}
+          </div>
+
+</section>
+	</div>
+</div>
+{% include footer.html %}
