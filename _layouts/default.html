@@ -10,7 +10,7 @@
         {% for collection in my_collections %}                    
             {% unless collection.label == "posts" %}
             <section id="{{ collection.label }}">
-                <h2 class="cat-title">{{ collection.label }}</h2>
+                <h2 class="cat-title">{{ collection.display_name }}</h2>
                     <div>                
                 
                   {% assign my_docs = collection.docs | sort: "weight" %}
