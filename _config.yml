@@ -1,4 +1,4 @@
-# Name of your blog (this will show up at the top of your page and in the RSS feed)
+﻿# Name of your blog (this will show up at the top of your page and in the RSS feed)
 name: Lisa Charpentier Designer Fabricante
 
 # Short description (goes below the title; it will also be used in the RSS feed)
@@ -62,4 +62,3 @@ collections:
     output: true
     display_name: Les chiffres et les lettres
     weight: e
-    
