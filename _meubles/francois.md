@@ -1,6 +1,6 @@
-﻿---
+---
 title: Le François
-thumb: lefrancois.jpg
+thumb: francois.jpg
 weight: b
 ---
 
