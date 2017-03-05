@@ -1,6 +1,6 @@
 ---
 title: 1km de mots
-thumb: km.jpg
+thumb: 1km.jpg
 weight: z
 ---
 

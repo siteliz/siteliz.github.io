@@ -9,6 +9,6 @@ Comment: Pin et tiges filetées
 
 Quoi: Rangement sur mesure installé dans le couloir d'un appartement montréalais.
 
-![](/img/yann_01.jpg)
+![](/img/boulonne_01.jpg)
 
-![](/img/yann_02.jpg)
+![](/img/boulonne_02.jpg)

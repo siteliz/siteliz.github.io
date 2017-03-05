@@ -12,10 +12,10 @@ Quoi: Housse pour coussin avec ouverture boutonnée. Lettre 't' en Gill Sans MT,
 
 Dimensions: 14H x 14L
 
-![](/img/coussin_02.jpg)
+![](/img/coussint_01.jpg)
 
-![](/img/coussin_03.jpg)
+![](/img/coussint_02.jpg)
 
-![](/img/coussin_04.jpg)
+![](/img/coussint_03.jpg)
 
-![](/img/coussin_05.jpg)
+![](/img/coussint_04.jpg)

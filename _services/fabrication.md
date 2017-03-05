@@ -4,4 +4,4 @@ thumb: fabrication.jpg
 
 ---
 
-Section en développement
+Fabrication de solutions de rangement simples et fonctionnelles adaptées à vos besoins et à votre espace. 

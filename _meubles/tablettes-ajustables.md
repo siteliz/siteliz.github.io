@@ -1,7 +1,7 @@
 ---
 title: Tablettes ajustables
 thumb: tablettes.jpg
-weight: e
+weight: d
 ---
 Quand: 2015
 
@@ -9,12 +9,12 @@ Comment: Peuplier et câbles d'acier
 
 Quoi: Tablettes murales montées sur câbles d'acier. Design ajustable et adaptable à tous les espaces.
 
-![](/img/1-tablettes.jpg)
+![](/img/tablettes-01.jpg)
 
-![](/img/2-tablettes.jpg)
+![](/img/tablettes-02.jpg)
 
-![](/img/3-tablettes.jpg)
+![](/img/tablettes-03.jpg)
 
-![](/img/4-tablettes.jpg)
+![](/img/tablettes-04.jpg)
 
-![](/img/5-tablettes.jpg)
+![](/img/tablettes-05.jpg)

@@ -12,12 +12,12 @@ Quoi: Autoportrait sous forme d'un manteau pesant la même chose que moi et dont
 
 Dimension: 1.5 mètres carrés, 52 kilogrammes
 
-![](/img/manteau-01.jpg)
+![](/img/autoportrait-01.jpg)
 
-![](/img/manteau-02.jpg)
+![](/img/autoportrait-02.jpg)
 
-![](/img/manteau-03.jpg)
+![](/img/autoportrait-03.jpg)
 
-![](/img/manteau-04.jpg)
+![](/img/autoportrait-04.jpg)
 
-![](/img/manteau-05.jpg)
+![](/img/autoportrait-05.jpg)

@@ -1,7 +1,7 @@
 ---
 title: Meuble papier
 thumb: meublepapier.jpg
-weight: d
+weight: c
 ---
 Quand: 2014
 
@@ -17,5 +17,3 @@ Dimensions: 34H x 30L x 21P
 ![](/img/meublepapier_02.jpg)
 
 ![](/img/meublepapier_03.jpg)
-
-![](/img/meublepapier_04.jpg)
