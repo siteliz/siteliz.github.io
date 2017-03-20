@@ -111,8 +111,11 @@ body {
   }
 }
 
-section img {
-  padding-bottom: 3px;
+section:not(.content) img {
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 #footer {
@@ -175,9 +178,11 @@ section {
     padding-right: 20px;
   }
 
-  section img {
-    width: 100%;
-    height: auto;
+   section img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+    max-width: none !important;
   }
 
   #footer img {
@@ -189,4 +194,7 @@ section {
     width: auto;
     height: auto;
   }
+}
+section a {
+  text-decoration: none;
 }
