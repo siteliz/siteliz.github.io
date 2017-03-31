@@ -1,7 +1,7 @@
 ---
 title: Le François
 thumb: lefrancois.jpg
-weight: b
+weight: c
 ---
 
 Quand: 2015
