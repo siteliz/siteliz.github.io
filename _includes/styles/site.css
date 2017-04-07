@@ -192,8 +192,10 @@ section {
 
   #footer #social img {
     display: inline;
-    width: 100%;
-	height: auto;
+    width: 100% !important;
+    height: auto !important;
+    max-height: 32px !important;
+    max-width: 32px !important;
   }
 }
 section a {
