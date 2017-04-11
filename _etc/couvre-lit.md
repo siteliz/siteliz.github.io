@@ -1,7 +1,7 @@
 ---
 title: Couvre-lit
 thumb: couvre-lit.jpg
-weight: c
+weight: y
 ---
 
 Quand: 2016

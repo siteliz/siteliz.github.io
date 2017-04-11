@@ -1,7 +1,7 @@
 ---
 title: Les boîtes à crayons
 thumb: boite-crayons.jpg
-weight: b
+weight: x
 ---
 
 Quand: 2016

@@ -1,7 +1,7 @@
 ---
 title: Les boîtes à musique
 thumb: boite-musique.jpg
-weight: a
+weight: w
 ---
 
 Quand: 2016
