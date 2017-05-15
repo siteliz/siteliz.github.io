@@ -6,18 +6,19 @@ weight: v
 
 Quand: 2017
 
-Comment: Retailles de pattes de table
+Comment: Merisier, retailles de pattes de table
 
-Quoi: Petites pyramides tout usage. Jeu de blocs pour adultes.
+Quoi: Petites pyramides. Jeu de blocs pour adultes
 
 Dimensions: 1,50H x 1,50L x 0,50P
 
 
 
-![](/img/pyramide_01.jpg)
+![](/img/pyramides_01.jpg)
 
-![](/img/pyramide_02.jpg)
+![](/img/pyramides_02.jpg)
 
-![](/img/pyramide_03.jpg)
+![](/img/pyramides_03.jpg)
+
 
 
