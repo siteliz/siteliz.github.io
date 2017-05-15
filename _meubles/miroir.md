@@ -1,7 +1,7 @@
 ---
 title: Le miroir de Marie-Lyne
 thumb: miroir.jpg
-weight: b
+weight: n
 ---
 
 Quand: 2016
