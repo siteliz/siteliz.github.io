@@ -1,7 +1,7 @@
 ---
 title: Coussin modèle T
 thumb: coussint.jpg
-weight: b
+weight: y
 ---
 
 Quand: 2015
