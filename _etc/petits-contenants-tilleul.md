@@ -6,7 +6,7 @@ weight: u
 
 Quand: 2017
 
-Comment: Restant de tilleul et liège recyclé
+Comment: Retailles de tilleul et liège recyclé
 
 Quoi: Petits contenants hexagonaux avec bouchon en liège recyclé
 
