@@ -1,7 +1,7 @@
 ---
-title: Les petits contenants
+title: Les petits contenants version merisier
 thumb: contenant.jpg
-weight: u
+weight: t
 ---
 
 Quand: 2017
