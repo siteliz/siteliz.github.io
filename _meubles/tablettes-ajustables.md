@@ -1,7 +1,7 @@
 ---
 title: Tablettes ajustables
 thumb: tablettes.jpg
-weight: y
+weight: f
 ---
 Quand: 2015
 

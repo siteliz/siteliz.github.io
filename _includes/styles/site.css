@@ -141,9 +141,8 @@ section {
 
 .project-image {
   padding-bottom: 20px;
-  width: auto;
+  width: 100%;
   height: auto;
-
 }
 
 #push,
@@ -181,10 +180,10 @@ section {
   }
 
    section img {
-    width: auto !important; 
-	height: auto !important;
+    width: 100% !important;
+    height: auto !important;
     max-height: none !important;
-    max-width: auto !important;
+    max-width: none !important;
   }
 
   #footer img {

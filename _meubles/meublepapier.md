@@ -1,7 +1,7 @@
 ---
 title: Meuble papier
 thumb: meublepapier.jpg
-weight: w
+weight: d
 ---
 Quand: 2014
 

@@ -1,7 +1,7 @@
 ---
 title: Bibliothèque ouverte
 thumb: bibli.jpg
-weight: z
+weight: m
 ---
 
 Quand: 2016

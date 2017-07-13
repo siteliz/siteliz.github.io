@@ -1,7 +1,7 @@
 ---
 title: Rangement boulonné
 thumb: boulonne.jpg
-weight: x
+weight: f
 ---
 Quand: 2009
 
