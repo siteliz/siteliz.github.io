@@ -16,7 +16,7 @@
                   {% assign my_docs = collection.docs | sort: "weight" %}
                   {% for item in my_docs %}
                         <a href="{{ item.url }}">
-                        <img src="{{ item.thumb | prepend: site.imagesurl }}">
+                        <img src="{{ item.thumb | prepend: site.imagesurl }}" alt="{{item.title}}">
                         </a>
                   {% endfor %}
                     </div>
